@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Mid Term</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Minhas Despesas</h1>
+    </header>
+    <div class="container">
+        <div class="form-container">
+        <label for="nome">Descrição<input type="text" id="nome"/></label>
+        <label for="tipo">Tipo
+            <select id='tipo' name='tipo'>
+                <option value='Lazer'>Lazer</option>
+                <option value='Gastos recorrentes'>Gastos recorrentes</option>
+                <option value='Contas'>Contas</option>
+                <option value='Alimentação'>Alimentação</option>
+            </select>
+        </label>
+        <div class='button-container'>
+            <button id="registrar" onClick="adicionaGasto(nome, tipo)" >REGISTRAR</button>
+        </div>
+    </div>
+    <div class="table-container">
+        <table id='table-gastos'>
+            <tr>
+                <th>Descrição</th>
+                <th>Tipo</th>
+            </tr>
+            <tbody id='table-body'>
+                
+            </tbody>
+        </table>
+    </div>
+    </div>
+</body>
+<script src='back.js'></script>
+</html>

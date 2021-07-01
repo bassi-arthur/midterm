@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* fim do reset de css */
+
+header {
+  height: 35vh;
+  background-color: #05445e;
+  padding-top: 35px;
+}
+
+.title {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+input,
+select {
+  display: block;
+  padding: 8px;
+  margin-top: 8px;
+  background-color: #fff;
+  border-style: solid;
+  border: 2px solid aqua;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: 0;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.container {
+  width: 50%;
+  margin: -15vh auto 50px auto;
+  padding: 80px;
+  background-color: #d4f1f4;
+  border-radius: 8px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label {
+  font-size: 1.25rem;
+}
+
+.button-container {
+  margin-top: 25px;
+}
+
+button {
+  padding: 12px;
+  background-color: #000;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: none;
+}
+
+button:hover {
+  opacity: 0.8;
+  color: aqua;
+}
+
+input {
+  color: black;
+  width: 250px;
+}
+
+input:focus {
+  border-color: transparent;
+}
+
+select {
+  font-size: 0.85rem;
+}
+
+select:focus {
+  border-color: transparent;
+}
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+th {
+  background-color: #189ab4;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+tr {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
